@@ -1,50 +1,35 @@
-# 📚 Student Information Manager
+# 🎮 Hangman Game (Python)
 
-## 🚀 About The Project
+This is my second Python project, a simple **Hangman Game** built to practice my programming skills and improve my understanding of Python fundamentals.
 
-This is my first Python project, built to practice the fundamentals of programming and improve my problem-solving skills.
+The player tries to guess a hidden word letter by letter. Each wrong guess reduces the player's remaining lives. The goal is to discover the word before running out of attempts.
 
-The **Student Information Manager** is a simple command-line application that allows users to store and manage student information using Python dictionaries.
+## 🚀 Project Features
 
-This project is part of my journey to build a strong foundation in Python before moving deeper into Data Science and Machine Learning.
+- 🎲 Random word selection
+- 🔤 Letter-by-letter guessing system
+- ❤️ Lives system
+- 📝 Tracks used letters
+- 🏆 Win and lose conditions
+- 🎨 Displays game progress
 
----
+## 🧠 Concepts I Practiced
 
-## ✨ Features
+While creating this project, I practiced:
 
-- ➕ Add a new student
-- 🔍 Search for a student
-- ✏️ Update student information
-- 🗑️ Delete student records
-- 📋 Display all students
-- 🚪 Exit the program
+- Python functions
+- Lists
+- Loops (`for` and `while`)
+- Conditional statements (`if/else`)
+- Variables
+- User input
+- Random module
+- String manipulation
 
----
+## 📂 How The Game Works
 
-## 🧠 What I Learned
+1. The program chooses a random word.
+2. The word is hidden using underscores:
 
-While building this project, I practiced:
-
-- Python dictionaries (key-value data storage)
-- Variables and data types
-- Functions
-- Conditional statements (`if/elif/else`)
-- Loops (`while`)
-- User input handling
-- Program logic and structure
-
----
-
-## 🛠️ Technologies Used
-
-- Python 3
-- Built-in Python features
-
----
-
-## ▶️ How To Run The Project
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/student-information-manager.git
+Example:
+.com/your-username/student-information-manager.git
