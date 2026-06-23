@@ -1,35 +1,38 @@
-# 🎮 Hangman Game (Python)
+# 🎮 Hangman Game - Python
 
-This is my second Python project, a simple **Hangman Game** built to practice my programming skills and improve my understanding of Python fundamentals.
+A simple **Hangman Game** built with Python.  
+The player tries to guess the hidden word letter by letter before running out of lives.
 
-The player tries to guess a hidden word letter by letter. Each wrong guess reduces the player's remaining lives. The goal is to discover the word before running out of attempts.
-
-## 🚀 Project Features
-
-- 🎲 Random word selection
-- 🔤 Letter-by-letter guessing system
-- ❤️ Lives system
-- 📝 Tracks used letters
-- 🏆 Win and lose conditions
-- 🎨 Displays game progress
-
-## 🧠 Concepts I Practiced
-
-While creating this project, I practiced:
-
-- Python functions
+This project is one of my beginner Python projects to practice:
+- Functions
+- Loops
 - Lists
-- Loops (`for` and `while`)
-- Conditional statements (`if/else`)
-- Variables
+- Conditions
 - User input
 - Random module
-- String manipulation
 
-## 📂 How The Game Works
+---
 
-1. The program chooses a random word.
-2. The word is hidden using underscores:
+## 📌 Project Description
 
-Example:
-.com/your-username/student-information-manager.git
+In this game, the computer randomly chooses a word from a list.
+
+The player has **6 lives** and must guess the word by entering one letter at a time.
+
+If the guessed letter is correct:
+- The letter appears in the word.
+
+If the guess is wrong:
+- The player loses one life.
+- The Hangman drawing updates.
+
+The player wins when they discover the full word before losing all lives.
+
+---
+
+## 🎮 How to Play
+
+1. Run the Python file:
+
+```bash
+python hangman.py
